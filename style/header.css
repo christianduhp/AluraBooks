@@ -1,0 +1,201 @@
+.cabecalho__menu-hamburger{
+    width: 24px;
+    height: 24px;
+    background-image: url("../assets/Menu.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block ;
+    padding-left: 1em;  
+}
+
+.container__botao:checked~ .container__rotulo > .cabecalho__menu-hamburger{
+    background-image: url("..//assets/Menu\ Aberto.png");
+
+}
+
+.container__botao:checked ~ .container__rotulo{
+    background: var(--cor-azul-gradiente);
+    padding: 1.5em 0;
+
+}
+
+.cabecalho{
+    background-color: var(--cor-branco);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+}
+
+
+.container__imagem__logo{
+    padding: 1em;    
+}
+
+.container__imagem{
+    padding-right: 1em;  
+}
+
+
+.lista-menu{
+    display: none;
+    position: absolute;
+    top: 100%;
+    width: 60vw;
+
+}
+
+.container__botao:checked~.lista-menu{
+    display: block;
+}
+
+.lista-menu__titulo, 
+.lista-menu__item{
+    padding: 1em;
+    background-color: var(--cor-branco);
+}
+
+.lista-menu__titulo{
+    color: var(--cor-laranja);
+    font-weight: 700;
+}
+
+.lista-menu__link{
+    background: var(--cor-azul-gradiente);
+    -webkit-background-clip: text; /* para o degradê funcionar em outros tipos de navegadores */
+    -webkit-text-fill-color: transparent; /* para o degradê funcionar em outros tipos de navegadores */
+    background-clip: text;
+    text-transform: uppercase; /* transforma todas letras em maiuscula */
+}
+
+
+.container__botao,
+.container__titulo,
+.container__texto,
+.opcoes{
+    display: none;
+}
+
+
+
+@media screen and (min-width: 1024px){
+
+    .container__logo,
+    .opcoes{
+        display: flex;
+    }
+
+    .container__titulo,
+    .container__titulo-negrito {
+        font-family: var(--fonte-secundaria);
+        font-size: 30px;
+        padding: 0.8em 0em ;
+        text-transform: capitalize;
+    }
+    
+    .container__titulo {
+        font-weight: 400;
+        display: block;
+    }
+
+    .container__titulo-negrito {
+        font-weight: 700;
+    }
+
+    .opcoes__item {
+        padding: 0 1em;
+    }
+
+
+    .opcoes__link{
+        text-transform: uppercase;
+        text-decoration: none;
+        font-weight: 400;
+        font-size: 16px;
+        background: var(--cor-azul-gradiente);
+        -webkit-background-clip: text; /* para o degradê funcionar em outros tipos de navegadores */
+        -webkit-text-fill-color: transparent; /* para o degradê funcionar em outros tipos de navegadores */
+        background-clip: text;
+
+    }
+
+
+    .opcoes__botao,
+    .container__imagem-transparent,
+    .lista-menu__titulo,
+    .cabecalho__menu-hamburger {
+        display: none;
+    }
+
+    .lista-menu{
+        top: 100%;
+        width: 40vw;
+        margin-left: 30%;
+        
+    }
+
+    .cabecalho{
+        padding-left: 1em
+    }
+    
+    .opcoes__titulo{
+        text-transform: uppercase;
+        text-decoration: none;
+        color: var(--cor-preto);
+        font-weight: 400;
+        font-size: 16px;
+
+    }
+
+    .container{
+        margin-right: 4em;
+    }
+
+    .opcoes{
+        margin-right: auto;
+    }
+
+    .lista-menu__item:hover{
+        background: var(--cor-azul-gradiente);
+    }
+
+    .lista-menu__item:hover>.lista-menu__link{
+        -webkit-text-fill-color: var(--cor-branco);
+        text-decoration: none;
+    }
+}  
+
+
+@media screen and (min-width: 1728px){
+
+    .container__link{
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+    }
+    .container__texto{
+        display: block;
+        color: var(--cor-preto);
+        padding-right: 1em;
+    }
+
+    .container__imagem{
+        padding-right: 0;
+    }
+
+    .opcoes{
+        margin-right: auto;
+    }
+
+    .lista-menu{
+        top: 100%;
+        width: 40vw;
+        margin-left: 17%;
+        
+    }
+}
