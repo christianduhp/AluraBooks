@@ -14,7 +14,7 @@ A interface se adapta de forma dinâmica de acordo com a resolução da tela, pe
 
 | :placard: Vitrine.Dev |<a href="https://cursos.alura.com.br/vitrinedev/christianoliver">Christian Oliveira</a> |
 | -------------  | --- |
-| :sparkles: Nome        | ** AluraBooks**
+| :sparkles: Nome        | **AluraBooks**
 | :label: Tecnologias | HTML, CSS
 | :rocket: URL         |<a href="https://christianduhp.github.io/AluraBook/">Link AluraBooks</a>
 | :fire: Desafio     |<a href="https://www.figma.com/file/sSMbIqKaGBd66Y8roxTk2p/AluraBooks?t=Y55ZoM3oOWZPfwzo-6">Desafio Figma</a> 
