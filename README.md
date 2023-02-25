@@ -16,7 +16,7 @@ A interface se adapta de forma dinâmica de acordo com a resolução da tela, pe
 | -------------  | --- |
 | :sparkles: Nome        | ** AluraBook**
 | :label: Tecnologias | HTML, CSS
-| :rocket: URL         |<a href="https://christianduhp.github.io/AluraBook/">Link Alura+</a>
+| :rocket: URL         |<a href="https://christianduhp.github.io/AluraBook/">Link AluraBook</a>
 | :fire: Desafio     |<a href="https://www.figma.com/file/sSMbIqKaGBd66Y8roxTk2p/AluraBooks?t=Y55ZoM3oOWZPfwzo-6">Desafio Figma</a> 
 
 ![AluraBook](https://user-images.githubusercontent.com/85292359/221328100-d9ebd00c-b684-4862-9367-fc207a267150.png#vitrinedev)
