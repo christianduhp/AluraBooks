@@ -1,4 +1,4 @@
-<h1> AluraBook </h1>
+<h1> AluraBooks </h1>
 
 Este é um projeto de plataforma de livros responsiva para desktop, tablet e celular, desenvolvido em HTML e CSS durante um curso da Alura.
 
@@ -14,11 +14,11 @@ A interface se adapta de forma dinâmica de acordo com a resolução da tela, pe
 
 | :placard: Vitrine.Dev |<a href="https://cursos.alura.com.br/vitrinedev/christianoliver">Christian Oliveira</a> |
 | -------------  | --- |
-| :sparkles: Nome        | ** AluraBook**
+| :sparkles: Nome        | ** AluraBooks**
 | :label: Tecnologias | HTML, CSS
-| :rocket: URL         |<a href="https://christianduhp.github.io/AluraBook/">Link AluraBook</a>
+| :rocket: URL         |<a href="https://christianduhp.github.io/AluraBook/">Link AluraBooks</a>
 | :fire: Desafio     |<a href="https://www.figma.com/file/sSMbIqKaGBd66Y8roxTk2p/AluraBooks?t=Y55ZoM3oOWZPfwzo-6">Desafio Figma</a> 
 
-![AluraBook](https://user-images.githubusercontent.com/85292359/221328100-d9ebd00c-b684-4862-9367-fc207a267150.png#vitrinedev)
+![AluraBooks](https://user-images.githubusercontent.com/85292359/221328100-d9ebd00c-b684-4862-9367-fc207a267150.png#vitrinedev)
 
 
