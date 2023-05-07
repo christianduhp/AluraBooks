@@ -25,5 +25,6 @@ Para utilizar a funcionalidade de busca de endereço, basta clicar na sacola ou 
 | :rocket: URL         |<a href="https://christianduhp.github.io/AluraBook/">Link AluraBooks</a>
 | :fire: Desafio     |<a href="https://www.figma.com/file/sSMbIqKaGBd66Y8roxTk2p/AluraBooks?t=Y55ZoM3oOWZPfwzo-6">Desafio Figma</a> 
 
-
-
+![Captura de tela 2023-05-01 164622](https://user-images.githubusercontent.com/85292359/235518809-e257f369-4f63-49d3-a8fc-16817c081488.png#vitrinedev)
+![Captura de tela 2023-05-01 151540](https://user-images.githubusercontent.com/85292359/235518668-ce7f9e3d-c96f-488e-a18a-d855821dd68d.png#vitrinedev)
+![Captura de tela 2023-05-01 151646](https://user-images.githubusercontent.com/85292359/235518879-6d4fc21e-841e-424b-8fe9-1b75cdaa4de1.png#vitrinedev)
