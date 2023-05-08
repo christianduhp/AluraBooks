@@ -6,7 +6,6 @@
 
 .header {
   text-align: center;
-  width: 100%;
   background-color: var(--cor-branco);
   padding: 1em 0px;
 }
@@ -18,17 +17,19 @@
   height: 270px;
 }
 
+.banner h3{
+  margin-top: 1em;
+}
 
 .nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 30px;
   margin: 4rem 0;
 }
 
 .btn {
-  background-color: var(--button-color);
+  background-image: var(--cor-azul-gradiente);
   border: none;
   cursor: pointer;
   height: 44px;
@@ -40,6 +41,13 @@
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
+}
+
+
+
+.btn:active, .btn:focus {
+  background-image: var(--text-description-color);
+  color:  var(--cor-branco);
 }
 
 .btn:hover {
@@ -132,7 +140,6 @@
   background: linear-gradient(96.48deg, #002f52 36.3%, #326589 99.56%);
   margin-top: 1rem;
   text-align: center;
-
   display: flex;
   justify-content: center;
   align-items: center;
@@ -143,3 +150,97 @@
   font-weight: 500;
   line-height: 24px;
 }
+
+.line-under-book{
+  display: none;
+}
+
+.wrap_filter{
+  display: none;
+}
+
+.btn:active, .btn:focus {
+  background-color: var(--text-description-color);
+  color:  var(--cor-branco);
+}
+
+@media screen and (max-width: 480px) {
+
+  .wrap {
+    width:auto;
+    padding: 0;
+    display: flex;
+    flex-direction: center;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+  }
+
+  .wrap_filter{
+    display: block;
+  }
+  
+  .livro__titulo {
+  font-size: 16px;
+  line-height: 20px;
+  }
+
+
+  .livro__descricao {
+  font-size: 14px;
+  margin: 0.5rem 0;
+  }
+  
+  .livro__preco {
+  font-size: 24px;
+  }
+  
+  .line-under-book{
+    display: block;
+    width: 100%;
+  }
+
+  .books-page__banner {
+    height: fit-content;
+    width: auto;
+  }
+  
+  .livros__disponiveis p {
+  font-size: 1.8em;
+  }
+
+
+  .nav {
+    display: none;
+
+  }
+  
+  .btn {
+    background-image: var(--cor-azul-gradiente);
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+    padding: 0;
+    margin: 0;
+    width: 100vh;
+
+  }
+
+  .btn:active, .btn:focus {
+    background-image: var(--text-description-color);
+    color:  var(--cor-branco);
+  }
+
+  #mostrar-botoes:checked ~ .nav, .wrap {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    margin: 1em 0em;
+    padding: 0;
+    
+  }
+
+
+  
+  }

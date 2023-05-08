@@ -19,6 +19,10 @@
 
 }
 
+.container__botao:checked~.lista-menu{
+    display: block;
+}
+
 .cabecalho{
     background-color: var(--cor-branco);
     display: flex;
@@ -48,10 +52,6 @@
     top: 100%;
     width: 60vw;
 
-}
-
-.container__botao:checked~.lista-menu{
-    display: block;
 }
 
 .lista-menu__titulo, 
@@ -88,6 +88,8 @@
     .container__logo,
     .opcoes{
         display: flex;
+        text-decoration: none;
+        color: var(--cor-azul);
     }
 
     .container__titulo,

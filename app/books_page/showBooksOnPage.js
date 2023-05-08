@@ -19,7 +19,7 @@ function showBooksOnPage(booksList) {
                 <div class="tags">
                     <span class="tag">${book.categoria}</span>
                 </div>
-
+                <hr class="line-under-book"/>
             </div>`
     })
 }
