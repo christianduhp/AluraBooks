@@ -32,7 +32,7 @@ Para utilizar a funcionalidade de busca de endereço, basta clicar na sacola ou 
 | -------------  | --- |
 | :sparkles: Nome        | **AluraBooks**
 | :label: Tecnologias | HTML, CSS
-| :rocket: URL         |<a href="https://christianduhp.github.io/AluraBook/">Link AluraBooks</a>
+| :rocket: URL         |<a href="https://christianduhp.github.io/AluraBooks/">Link AluraBooks</a>
 | :fire: Desafio     |<a href="https://www.figma.com/file/sSMbIqKaGBd66Y8roxTk2p/AluraBooks?t=Y55ZoM3oOWZPfwzo-6">Desafio Figma</a> 
 
 
