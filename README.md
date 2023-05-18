@@ -3,7 +3,7 @@
 Este é um projeto de plataforma de livros responsiva para desktop, tablet e celular, desenvolvido em HTML, CSS e JavaScript durante diversos cursos da Alura.
 
 ## Como utilizar
-Para executar o projeto, basta baixar os arquivos e abrir o arquivo index.html em seu navegador. Você também pode acessar o projeto <a href="https://christianduhp.github.io/AluraBook/">clicando aqui</a>
+Para executar o projeto, basta baixar os arquivos e abrir o arquivo index.html em seu navegador. Você também pode acessar o projeto <a href="https://christianduhp.github.io/AluraBooks/">clicando aqui</a>
 
 ## Funcionalidades
 A plataforma AluraBooks foi desenvolvida com técnicas de design responsivo para que possa ser acessada de forma adequada em diferentes dispositivos, como desktops, tablets e celulares.
