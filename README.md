@@ -25,17 +25,6 @@ Se o usuário informar um CEP inválido, a função buscaEndereco exibe uma mens
 Para utilizar a funcionalidade de busca de endereço, basta clicar na sacola ou no perfil para abrir a tela de cadastro, preencher o campo CEP do formulário e clicar fora do campo. O resultado da busca será exibido automaticamente nos campos correspondentes do formulário.
 
 
-
-## Vitrine.Dev
-
-| :placard: Vitrine.Dev |<a href="https://cursos.alura.com.br/vitrinedev/christianoliver">Christian Oliveira</a> |
-| -------------  | --- |
-| :sparkles: Nome        | **AluraBooks**
-| :label: Tecnologias | HTML, CSS
-| :rocket: URL         |<a href="https://christianduhp.github.io/AluraBooks/">Link AluraBooks</a>
-| :fire: Desafio     |<a href="https://www.figma.com/file/sSMbIqKaGBd66Y8roxTk2p/AluraBooks?t=Y55ZoM3oOWZPfwzo-6">Desafio Figma</a> 
-
-
 ![screencapture-127-0-0-1-5500-index-html-2023-05-07-17_08_02](https://user-images.githubusercontent.com/85292359/236700392-fedddf4f-e60c-4a55-a904-1c03464fdd43.png#vitrinedev)
 
 ![screencapture-127-0-0-1-5500-books-page-html-2023-05-07-17_07_13](https://user-images.githubusercontent.com/85292359/236700357-14cce239-42ac-47aa-ba60-2f46aad3fe5f.png#vitrinedev)
